@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <link href="extension.css" rel="stylesheet" text="text/css">
+</head>
+<body>
+
+<div class="main">
+    <div class="panel panel1">
+        <a href="#" id="mySettings" class="ico set">Information</a>
+        <a href="#" id="addFriend" class="ico add">Add Friend</a>
+
+        <div class="ifEmpty">Friend list is empty</div>
+
+        
+        <div class="list friends">
+            <ul></ul>
+        </div>
+
+        <a href="#" class="sendtoall">Send to Everybody</a>
+
+    </div>
+
+    <div class="panel panel2">
+        <a href="#" id="turnback" class="ico arrow-left">Back</a>
+
+        <div class="add-form add-friend-form">
+            <label for="name">Name:</label>
+            <input id="name" name="name" type="text"/>
+            <label for="email">E-mail:</label>
+            <input id="email" name="email" type="text"/>
+            <button>Add</button>
+        </div>
+
+    </div>
+    <div class="panel panel3">
+        <a href="#" id="turnback2" class="ico arrow-left">Back</a>
+
+        <div class="add-form settings-form">
+            <label for="myname">My Name:</label>
+            <input id="myname" name="myname" type="text"/>
+            <label for="myemail">My E-mail:</label>
+            <input id="myemail" name="myemail" type="text"/>
+            <button>Save</button>
+        </div>
+
+    </div>
+</div>
+
+<script src="jquery-1.12.3.js"></script>
+<script src="extension.js"></script>
+</body>
+</html>
